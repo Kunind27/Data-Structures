@@ -37,7 +37,7 @@ class stack
     // Is the Stack Empty
     bool is_empty()
     {
-        return (*this).length()>0;
+        return (*this).length()==0;
     }
     
     // Return Size of the Stack
@@ -151,6 +151,10 @@ int main()
     s.pop();
     cout<<endl;
     s.print();
+    
+    // Check if the Stack is empty or not
+    cout<<endl;
+    cout<<s.is_empty();
     
     return 0;
 }
