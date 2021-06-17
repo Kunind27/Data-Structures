@@ -55,6 +55,7 @@ class stack
             cout<<n->val<<" ";
             n = n->next;
         }
+        cout<<endl;
     }
     
     // Pushing a new element onto the stack
@@ -92,7 +93,7 @@ class stack
         int pop_val = top->val;
         top = top->next; // Now, the top value is the next element in the array
         
-        cout<<pop_val<<" is being popped";
+        cout<<pop_val<<" is being popped"<<endl;
         //return pop_val;
     }
     
@@ -130,7 +131,7 @@ int main()
     
     // Printing the Stack Elements and its length
     s.print();
-    cout<<endl<<s.length()<<endl;
+    cout<<s.length()<<endl;
     
     // Searching an element in the Stack
     stack_node* res = s.search_value(45);
@@ -143,18 +144,14 @@ int main()
     s.push(33);
     s.push(83);
     s.push(101);
-    cout<<endl;
     
     // Popping the Last element of the Stack
     s.print();
-    cout<<endl;
     s.pop();
-    cout<<endl;
     s.print();
     
     // Check if the Stack is empty or not
-    cout<<endl;
-    cout<<s.is_empty();
+    cout<<s.is_empty()<<endl;
     
     return 0;
 }
