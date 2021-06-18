@@ -8,5 +8,5 @@ This repository contains my implementations of various Data Structures and Algor
     2. Linked List
     3. Stacks
     4.  Queues
-    5.  Trees
+    5.  Binary Search Trees
 2. **Session 2**:
