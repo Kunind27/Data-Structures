@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-// Implementing Max Heaps/ Priority Queues
+// Implementing Max Heaps/ Priority Queue
 class MaxHeap
 {
     int N; // Size of the Array/ Queue
@@ -20,7 +20,7 @@ class MaxHeap
         arr[j] = temp;
     }
     
-    // Resstore Heap Order if Child Key > Parent Key
+    // Restore Heap Order if Child Key > Parent Key
     void swim(int k)
     {
         while(k>0 && less((k-1)/2, k) ) // Parent of node k is at [(k-1)/2]
@@ -67,7 +67,7 @@ class MaxHeap
     void insert(int key)
     {
         arr[N] = key;
-        swim(N);
+        swim(N); // To make sure heap order is maintained
         N++; // Since number of elements in the array have increased
     }
     
