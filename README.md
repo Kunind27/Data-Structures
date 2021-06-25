@@ -4,14 +4,16 @@ This repository contains my implementations of various Data Structures and Algor
 
 **Contents:**
 1. **Session 1**:
-    1. Custom Complex Number Class
-    2. Linked List
-    3. Stacks
-    4.  Queues
-    5.  Binary Search Trees
+    a. Custom Complex Number Class
+    b. Linked List
+    c. Stacks
+    d.  Queues
+    e.  Binary Search Trees
 2. **Session 2**:
-    1. Tries
-    2. Hash Tables
-    3. Heaps
-    4. Graphs
+    a. Tries
+    b. Hash Tables
+    c. Heaps
 3. **Session 3**:
+    a. Search Algorithms:
+    b. Sorting Algorithms
+    c. Graph Algorithms
