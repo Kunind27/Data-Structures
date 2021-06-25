@@ -75,6 +75,7 @@ class MaxHeap
         int max = arr[0];
         exchange(0, N-1); // Replacing it with the key of last node
         sink(0); // Sinking to restore heap order
+        N--; // Size of the Heap Reduces
         return max;
     }
     
