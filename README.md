@@ -14,6 +14,7 @@ This repository contains my implementations of various Data Structures and Algor
     1. Tries
     1. Hash Tables
     1. Heaps
+    1. Graph Representation
 
 3. **Session 3**:
     1. Search Algorithms:
