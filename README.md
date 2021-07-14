@@ -18,5 +18,17 @@ This repository contains my implementations of various Data Structures and Algor
 
 3. **Session 3**:
     1. Search Algorithms:
-    1. Sorting Algorithms
-    1. Graph Algorithms
+         
+        1. Linear Search
+        2. Binary Search
+       
+    1. Sorting Algorithms:
+        
+        1. Selection Sort
+        2. Bubble Sort
+        3. Insertion Sort
+        4. Heap Sort
+        5. Merge Sort
+        6. Quick Sort
+      
+    1. Graph Algorithms:
