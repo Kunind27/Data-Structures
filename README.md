@@ -32,3 +32,8 @@ This repository contains my implementations of various Data Structures and Algor
         6. Quick Sort
       
     1. Graph Algorithms:
+        1. Depth First Search
+        2. Breadth First Search
+        3. Bellman Ford Shortest Path
+        4. Dijkstra Shortest Path
+        5. Floyd Warshall Algorithm
