@@ -33,10 +33,10 @@ class MaxHeap
     // key with the larger child
     void sink(int k)
     {
-        while(2*k+1 <= N)
+        while(2*k+1 <= N-1)
         {
             int j = 2*k+1;
-            if(j < N && less(j, j+1)) // To determine the larger child node
+            if(j < N-1 && less(j, j+1)) // To determine the larger child node
                 j++;
                 
             if(!less(k, j)) // Don't do anything if Parent Node > Child Nodes
