@@ -35,5 +35,5 @@ This repository contains my implementations of various Data Structures and Algor
         1. Depth First Search
         2. Breadth First Search
         3. Bellman Ford Shortest Path
-        4. Dijkstra Shortest Path
+        4. Dijkstra's Algorithm
         5. Floyd Warshall Algorithm
