@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Implementing Insertion Sort 
+// Implementing Heap Sort 
 
 void exchange(int a[], int i, int j)
 {
