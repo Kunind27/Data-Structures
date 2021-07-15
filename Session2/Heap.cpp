@@ -93,7 +93,8 @@ int main()
    // Defining the Heap
    int capacity = 100;
    int arr[] = {1,2,7,5,13,4,9,8,16};
-   MaxHeap h = MaxHeap(capacity, arr, 9);
+   int len = sizeof(arr)/sizeof(arr[0]);
+   MaxHeap h = MaxHeap(capacity, arr, len);
    
    // Printing out the Heap Ordered Array
    h.print();
