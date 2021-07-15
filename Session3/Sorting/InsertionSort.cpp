@@ -7,7 +7,6 @@ void insertionSort(int a[], int len)
     // Looping from the firt element to the last element
     for(int i=1; i<len; i++)
     {
-        bool swapped = false;
         for(int j=i; j>0; j--)
         {
             // Swapping the elements if they are in the wrong order
@@ -17,7 +16,6 @@ void insertionSort(int a[], int len)
                 int temp = a[j];
                 a[j] = a[j-1];
                 a[j-1] = temp;
-                swapped = true;
             }
             else
                 break; // Invariant is that theelements are before a[i] are sorted order so why to do unnecessary operations
