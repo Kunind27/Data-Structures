@@ -29,7 +29,6 @@ This repository contains my implementations of various Data Structures and Algor
         3. Insertion Sort
         4. Heap Sort
         5. Merge Sort
-        6. Quick Sort
       
     1. Graph Algorithms:
         1. Depth First Search
