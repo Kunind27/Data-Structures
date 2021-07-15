@@ -41,7 +41,7 @@ int main()
     int a[] = {4,6,1,2,3,5,10,9,14,73,67,22};
     int len = sizeof(a)/sizeof(a[0]);
     
-    // Temporary Array to store variables
+    // Temporary Array to store array elements
     int temp[len];
     
     // Printing original unsorted array 
