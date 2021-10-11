@@ -3,9 +3,11 @@
 
 using namespace std;
 
-struct complex
+class complex
 {
     double real, im;
+    
+    public:
     
     //Default Constructor
     complex()
@@ -74,39 +76,25 @@ struct complex
         return complex(real*z.real + im*z.im, -real*z.im + im*z.real)/sqrt(z.real*z.real + z.im*z.im);
     }
     
-    //To print the complex numbers
-    void print()
-    {
-        if (real==0 && im==0)
-        {
-            cout<<0<<endl;
-        }
-        
-        else if (im==0)
-        {
-            cout<<real<<endl;
-        }
-        
-        else if (real==0)
-        {
-            cout<<im<<"i"<<endl;
-        }
-        else
-        {
-            cout<<real<<" + "<<im<<"i"<<endl;
-        }
-    }
-    
+    // Declaring Overloaded << as a friend to access private variables
+    friend ostream& operator<<(ostream& out, const complex& z);
 };
+
+ostream& operator<<(ostream& out, const complex& z)
+{
+    out << z.real << " + " << z.im<< "i";
+    return out;
+}
+    
 
 int main()
 {
   // Defining two complex numbers  
   complex z1(0,0);
-  complex z2(2,1);
+  complex z2(8,1);
   
   // Doing some operations
   cout<<(z1+z2).modulus()<<endl;
-  (z1/z2+z2*2.5).print();
+  cout<<(z1/z2+z2*2.5)<<endl;
   return 0;
 }
